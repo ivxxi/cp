@@ -19,3 +19,6 @@ def dregistration(request):
 
 def driver(request):
     return render(request, 'driver/home.html')
+
+def dprofile(request):
+    return render(request, 'driver/profile.html')
