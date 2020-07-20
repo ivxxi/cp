@@ -22,3 +22,6 @@ def driver(request):
 
 def dprofile(request):
     return render(request, 'driver/profile.html')
+
+def ddestination(request):
+    return render(request, 'driver/destination.html')
