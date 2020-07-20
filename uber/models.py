@@ -30,3 +30,8 @@ class Location (models.Model):
     latitude = models.CharField(max_length=10)
     location_name = models.CharField(max_length=20)
     category = models.ForeignKey('uber.Category', on_delete=models.CASCADE)
+
+
+class Category (models.Model):
+    pickup_location = models.CharField(max_length=20)
+    arrival_destination = models.CharField(max_length=20)
