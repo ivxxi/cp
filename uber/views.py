@@ -9,3 +9,7 @@ def login(request):
 
 def logout(request):
     return render(request, 'registration/registration_form.html')
+
+def landing(request):
+    return render(request, 'landingpage/land-page.html')
+
