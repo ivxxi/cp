@@ -19,7 +19,8 @@ from passenger import views
 from django.conf.urls.static import static
 
 urlpatterns = [
+    path('accounts/', include('registration.backends.simple.urls')),
     path('admin/', admin.site.urls),
     path('', include('passenger.urls')),
-    path('',include('uber.urls')),
+    path('', include('uber.urls')),
 ]
