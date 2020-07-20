@@ -1,0 +1,15 @@
+certifi==2020.6.20
+chardet==3.0.4
+confusable-homoglyphs==3.1.1
+Django==2.0.7
+django-bootstrap3==10.0.1
+django-registration==2.4.1
+geolocation-python==0.2.2
+gunicorn==19.9.0
+idna==2.10
+Pillow==5.2.0
+psycopg2==2.7.5
+psycopg2-binary==2.8.5
+pytz==2018.5
+requests==2.24.0
+urllib3==1.25.9
