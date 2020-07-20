@@ -13,3 +13,13 @@ class Driver(models.Model):
 
     def __str__(self):
         return self.user.username 
+
+
+class Car(models.Model):
+    car_brand = models.CharField(max_length=50)
+    number_plate = models.CharField(max_length=20)
+    seat_number = models.CharField(max_length=20)
+
+
+    def __str__(self):
+        return self.user.username 
