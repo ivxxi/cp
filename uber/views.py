@@ -13,3 +13,6 @@ def logout(request):
 def landing(request):
     return render(request, 'landingpage/land-page.html')
 
+def dregistration(request):
+    return render(request, 'landingpage/land-page.html')
+
