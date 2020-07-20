@@ -17,3 +17,4 @@ def pdestination(request):
 
 def about(request):
     return render(request, 'uber/about.html')
+
