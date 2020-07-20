@@ -27,3 +27,6 @@ def pdestination(request):
 def about(request):
     return render(request, 'uber/about.html')
 
+@login_required(login_url='/accounts/login/')
+def login(request):
+    return render(request, 'registration/login.html')

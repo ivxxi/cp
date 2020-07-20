@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'application.urls'
+ROOT_URLCONF = 'ucarpool.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'application.wsgi.application'
+WSGI_APPLICATION = 'ucarpool.wsgi.application'
 
 
 # Database
