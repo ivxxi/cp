@@ -15,12 +15,15 @@ def landing(request):
 def passenger(request):
     return render(request, 'passenger/home.html')
 
+@login_required(login_url='/accounts/login/')
 def pprofile(request):
     return render(request, 'passenger/profile.html')
 
+@login_required(login_url='/accounts/login/')
 def pdestination(request):
     return render(request, 'passenger/destination.html')
 
+@login_required(login_url='/accounts/login/')
 def about(request):
     return render(request, 'uber/about.html')
 
