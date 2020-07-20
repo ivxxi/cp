@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'uber',
     'passenger',
     'bootstrap3',
+    'bootstrap4',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
