@@ -25,3 +25,7 @@ def dprofile(request):
 
 def ddestination(request):
     return render(request, 'driver/destination.html')
+
+def about(request):
+    return render(request, 'uber/about.html')
+
