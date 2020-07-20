@@ -7,7 +7,7 @@ from django.conf.urls.static import static
 
 
 urlpatterns=[
-    path('^$',views.landing,name = 'landing'),
+    path('',views.landing,name = 'landing'),
     path('passenger/home',views.passenger, name = 'passenger home page'),
     path('passenger/profile',views.pprofile, name = 'passenger profile page'),
     path('passenger/destination',views.pdestination, name = 'passenger pick destination page'),
