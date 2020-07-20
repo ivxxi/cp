@@ -16,3 +16,6 @@ def landing(request):
 def dregistration(request):
     return render(request, 'landingpage/land-page.html')
 
+
+def driver(request):
+    return render(request, 'driver/home.html')
