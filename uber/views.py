@@ -6,3 +6,6 @@ from django.conf.urls import url,include
 
 def login(request):
     return render(request, "registration/registration_form.html")
+
+def logout(request):
+    return render(request, 'registration/registration_form.html')
