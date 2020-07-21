@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+            
+    <title>portfolio</title>
+</head>
+<body>
+   <!-- Navbar (sit on top) -->
+
+
+   <nav class="black" style="opacity: 0.7;">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">portfolio</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="modal-trigger white-text" href="#about">about me</a></li>
+        <li><a class="modal-trigger white-text" href="#projects">projects</a></li>
+        <li><a class="modal-trigger white-text" href="#contact">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+           <div class="container">
+
+       
+
+<div class=" container row center-align" style="padding-bottom: 170px; padding-top:200px ;">
+    <div class="col s12 ">
+      <div class="card transparent">
+        <div class="card-content black-text">
+          <span class="card-title"><h1>CRYSTAL ALICE PORTFOLIO</h1></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container center-align" style="padding-bottom: 150px;">
+<a class="waves-effect waves-light btn transparent modal-trigger" href="#about" >about me</a>
+<a class="waves-effect waves-light btn transparent modal-trigger" href="#projects" >projects</a>
+<a class="waves-effect waves-light btn transparent modal-trigger" href="#contact" >contact</a>
+</div>   
+
+            <div class="modal" id="about">
+                <div class="modal-content">
+                    <h4> about me</h4> <hr> <br>
+                </div>
+ 
+
+            <div class="modal" id="projects">
+                <div class="modal-content">
+                    <h3> projects</h3> <hr> <br>
+
+  <div class="row">
+    <div class="col s6 m6">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s6 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Card Title</span>
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s6 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Card Title</span>
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s6 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Card Title</span>
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s6 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Card Title</span>
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>    
+      <div class="col s6 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Card Title</span>
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>
+                </div>
+                  </div>
+  <div class="container " style="padding-bottom: 30px;">
+  <a class="waves-effect waves-light btn-large center-align">more projects</a>
+</div>
+ 
+            <div class="modal" id="contact">
+                <div class="modal-content">
+                    <h4> contact</h4> <hr> <br>
+                </div>
+ \
+ 
+
+
+    
+        <div class="footer-copyright center-align">
+          <div class="container grey-text">
+              <p>“You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity" <br> - John Romero</p>
+              <p>© 2020 crystal alice</p>
+          </div>
+        </div>
+
+           <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+           <script type="text/javascript" src="js/materialize.min.js"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+<script>
+$(document).ready(function(){
+    $('.modal').modal();
+})
+
+</script>
+    
+</body>
+
+
+</html>
+
+
+body {
+    background-image: url('images/aerial-photography-of-water-beside-forest-during-golden-hour-1144176.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+#about{
+    background-image: url('images/road-landscape-nature-forest-39811.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.nav-wrapper{
+    opacity: 0.5;
+}
+
+#projects{
+    background-image: url('images/person-on-a-bridge-near-a-lake-747964.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
